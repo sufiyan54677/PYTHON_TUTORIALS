@@ -97,6 +97,7 @@ friends = "MohhammedShariqueMalik"
 print("hello my name is " + name)
 print("this is my friends" + friends)
 
+# INDEXING AND SLICING IN PYTHON
 print(name[0]) # this will print the first character of the string
 print(name[-1]) # this will print the last character of the string  
 
@@ -108,7 +109,7 @@ print(friends[0:-1]) # this will print the whole string except the last characte
 print(friends[0:-4]) # this will print the whole string except the last 4 characters
 print(friends[0:-4:2]) # this will print the whole string except the last 4 characters with a step of 2
 print(friends[-1:-1]) # this will print the whole string in reverse order
-print(friends[-1:0]) # this will print the whole string in reverse order except
+print(friends[-1:0]) # this will print the whole string in reverse order except the first character
 
 for character in friends:
     print(character) # this will print each character of the string in a new line
